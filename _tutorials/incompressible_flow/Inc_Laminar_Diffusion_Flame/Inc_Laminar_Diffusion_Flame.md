@@ -104,8 +104,8 @@ MARKER_WALL_SPECIES= (wall_fuel, FLUX, 0.0, VALUE, -4.645e6, wall_oxidizer, FLUX
 In this case, the temperature follows from the imposed enthalpy. 
 To switch between the two methods, you can use the configuration option:
 ```
-FLAMELET_ENTHALPY_BC= FLOW_MARKERS
-% FLAMELET_ENTHALPY_BC= SPECIES_MARKERS
+FLAME_ENTHALPY_BC= FLOW_MARKERS
+% FLAME_ENTHALPY_BC= SPECIES_MARKERS
 ```
 Since we know from the experiment the inlet temperature, we use **FLOW_MARKERS** to define temperature.
 
